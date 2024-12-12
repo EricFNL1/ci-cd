@@ -1,7 +1,4 @@
 
-def imc(a, b):
-    return a / b  # Correção
-
 
 def soma(a, b):
     return a + b  # Correção

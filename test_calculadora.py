@@ -3,11 +3,7 @@ import unittest
 from calculadora import soma, subtrai, multiplica, divide
 
 class TestCalculadora(unittest.TestCase):
-
-     def test_imc(self):
-        self.assertEqual(soma(10, 5), 2)
-        self.assertEqual(soma(50, 25), 2)
-
+    
 
     def test_soma(self):
         self.assertEqual(soma(2, 3), 5)
